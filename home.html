@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CrunchyRoll</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="https://unpkg.com/@glidejs/glide@3.6.0/dist/glide.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to CrunchyRoll</h1>
+  </header>
+  <!-- <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Anime</a></li>
+      <li><a href="#">Manga</a></li>
+      <li><a href="#">Community</a></li>
+      <li><a href="#">Store</a></li>
+    </ul>
+  </nav> -->
+  <section>
+    <h2>What's New!!</h2>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide"><img src="img/AOT.PNG"/></li>
+          <li class="glide__slide"><img src="img/BLEACH.PNG"/></li>
+          <li class="glide__slide"><img src="img/cyber.png"/></li>
+        </ul>
+        
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+        </div>
+      </div>
+    </div>
+    
+    <a href="#">Sign up for a 7- day free trial!</a>
+    <section>
+      <h2>Recommended for You</h2>
+      <!-- <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><img src="img/superhero.PNG"></li>
+            <li class="glide__slide"><img src="img/SpyX.PNG"></li>
+            <li class="glide__slide"><img src="img/code.PNG"></li>
+          </ul>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div data-glide-el="controls">
+        <button data-glide-dir="<<">Start</button>
+        <button data-glide-dir=">>">End</button>
+      </div> -->
+      <a href="#">Check out our premium plan where you can watch shows with no ads!</a>
+      <script>
+        new Glide('.glide').mount()
+      </script>
+
+
+</body>
+
+</html>
